@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">YogaAdmin</string>
+
+    <string-array name="days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="class_times">
+        <item>08:00 AM</item>
+        <item>10:00 AM</item>
+        <item>12:00 PM</item>
+        <item>02:00 PM</item>
+        <item>04:00 PM</item>
+        <item>06:00 PM</item>
+    </string-array>
+
+    <string-array name="yoga_types">
+        <item>Hatha</item>
+        <item>Vinyasa</item>
+        <item>Ashtanga</item>
+        <item>Yin</item>
+        <item>Restorative</item>
+    </string-array>
+
+    <!-- New teacher array with 4 teacher names -->
+    <string-array name="teacher_names">
+        <item>Teacher A</item>
+        <item>Teacher B</item>
+        <item>Teacher C</item>
+        <item>Teacher D</item>
+    </string-array>
+
+    <string-array name="duration_options">
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>75</item>
+        <item>90</item>
+    </string-array>
+</resources>

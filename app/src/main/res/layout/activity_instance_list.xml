@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".InstanceListActivity">
+
+    <!-- Back Arrow Button -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:contentDescription="Back"
+        android:background="?attr/selectableItemBackground"
+        android:layout_marginBottom="8dp"
+        app:tint="@color/blue" />
+
+
+
+    <!-- RecyclerView to display instances -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvInstances"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
