@@ -16,23 +16,44 @@
             android:id="@+id/btnAddCourse"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@android:drawable/ic_input_add"
-            android:contentDescription="Add Course" />
+            android:contentDescription="Add Course"
+            android:src="@android:drawable/ic_input_add" />
 
         <ImageButton
             android:id="@+id/btnViewSchedule"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@android:drawable/ic_menu_agenda"
+            android:layout_marginStart="8dp"
             android:contentDescription="View Schedule"
-            android:layout_marginStart="8dp" />
+            android:src="@android:drawable/ic_menu_agenda" />
 
-        <Button
-            android:id="@+id/btnUploadAll"
+        <!-- Upload & Reset stacked vertically -->
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Upload All"
-            android:layout_marginStart="8dp"/>
+            android:layout_marginStart="8dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnUploadAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload All" />
+
+            <Button
+                android:id="@+id/btnResetDatabase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset DB"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Location" />
     </LinearLayout>
 
     <!-- Search bar with icon -->
